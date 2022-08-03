@@ -1,0 +1,21 @@
+{
+  "name": "meilisearch---vanilla-meilisearch",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is description",
+  "main": "app.js",
+  "dependencies": {
+    "meilisearch": "^0.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "some",
+    "keywords"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
