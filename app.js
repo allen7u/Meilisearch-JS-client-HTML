@@ -1,6 +1,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 import { MeiliSearch } from 'meilisearch';
 
 const client = new MeiliSearch({

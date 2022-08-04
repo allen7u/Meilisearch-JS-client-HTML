@@ -21,28 +21,46 @@
 
 <body>
     
-    <div>input
-        <input type="text" id="input" value="">
-    </div>
-    
-    <div>hits
-
+    <div id="search_box_container">
+        <input type="text" id="search_input" value="">
+        <!-- <button id="search_btn"> Go </button> -->
     </div>
 
-    <div>pagination
-        <ul id="pagination">
+    <div id="hits" > 
+        <!-- hits -->
+    </div>
+
+    <div id="pagination">
+        <!-- pagination   -->
+        <ul class="pagination">
+            <!-- <button id="prev_btn"> Prev </button> -->
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
             <li><a href="#">4</a></li>
             <li><a href="#">5</a></li>
+            <!-- <button id="next_btn"> Next </button>       -->
         </ul>
     </div>
 
+    <div id="facets">
+        <!-- facets         -->
+    </div>    
+
 </body>
 
-<script src="meilisearch.esm.js"></script>
+<!-- <script src="./cdn.js"></script> -->
+<!-- <script src="meilisearch.esm.js"></script> -->
+<script src="meilisearch.umd.js"></script>
 
-<link rel="stylesheet" href="index.css" class="">
+<!-- <script src='https://cdn.jsdelivr.net/npm/meilisearch@latest/dist/bundles/meilisearch.umd.js'></script> -->
+
+<!-- <script type="text/javascript" src="./index.js"></script> -->
+<!-- <script type="module" src="./index.js"></script> -->
+<script src="./index.js"></script>
+
+<!-- <script src="index.js"></script> -->
+
+<link rel="stylesheet" href="./index.css" class="">
 
 </html>
